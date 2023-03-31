@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 2px;
+    padding:4px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body{
+    background-image: url("./Imagens/amos-from-stockphotos-com-4N8oM5L7hyM-unsplash.jpg");
+    background: linear-gradient(to left);
+    background-size: cover;
+}
+
+Header {
+    display: flex;
+    justify-content: end;
+}
+
+.perfil {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto {
+    border-radius: 50%;
+    border-radius: 50px;
+ }
+
+
+

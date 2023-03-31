@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+* {
+    margin: 2px;
+    padding:4px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+body {
+    background-color: rgb(220, 236, 250);
+}
+
+.cabecalho {
+    display: flex;
+    grid-template-columns: auto;
+}
+
+.Links {
+    font-style: italic;
+    display: flex;
+    grid: 20px;
+    grid-template-columns: max-content;
+}
+
+.GitHub {
+    border-radius: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    cursor: auto;
+}
+
+.Linkedin {
+    border-radius: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    cursor: auto;
+}
+
+.Instagram {
+    border-radius: 50px;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    cursor: auto;
+}
+
